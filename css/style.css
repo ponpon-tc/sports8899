@@ -261,10 +261,23 @@
 	        font-weight: bolder;
 	    }
 	}
-	#advertisement,#advertisement02 { display:none; position:absolute;z-index: 99;}
-	#advertisement,#advertisement02 img {border:none;}
-	#close_ad01,#close_ad02{display:block; color: #FFF;font-size: 0.7em; background: #000;}
-	#close_ad01{text-align: right ;}
+	#advertisement,#advertisement02{ 
+		display:none; 
+		position:absolute;
+		z-index: 99;
+	}
+	#advertisement,#advertisement02 img {
+		border:none;
+	}
+	#close_ad01,#close_ad02{
+		display:block;
+	 	color: #FFF;
+	 	font-size: 0.7em;
+	 	background: #000;
+	}
+	#close_ad01{
+		text-align: right;
+	}
 
 	/*#sys01{
 		background-image:url(../picture/bg/bg10.jpg); 
